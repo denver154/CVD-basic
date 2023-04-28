@@ -731,15 +731,11 @@ text-align: center;
 .svs-banner .svs-banner__wrapper{
     padding: 5rem 0;
 }
-.svs-banner .svs-banner__wrapper:nth-child(2){
-    background: #222222;
-    color: #f5f5f5;  
-    order: 1;
-}
-/* .svs-banner .svs-banner__items:nth-child(2){
+
+.svs-banner .svs-banner__items:nth-child(2){
 background: #222222;
 color: #f5f5f5;
-} */
+} 
 /* .svs-banner .svs-banner__items:nth-child(2) {
    margin-bottom: 1.5rem;
     } */
@@ -764,15 +760,14 @@ color: #f5f5f5;
     text-align: justify;
    
 }
-.svs-banner__wrapper .svs__price h4{
+.svs-banner__wrapper .price h4{
     margin-top: 3rem;
-    margin-bottom: 3rem;
 }
-
-.svs-banner__wrapper .svs__price p{
+.svs-banner__wrapper .price p{
+    max-width: 180px;
     margin-top: .2rem;
     font-size: 1.5rem;
-    font-style: italic ;
+    font-style: italic;
 }
 .svs-banner a {
     display: flex;
@@ -780,9 +775,8 @@ color: #f5f5f5;
     color: #ffa700;
     font-size: 3rem;
     margin: 2rem 0;
-    /* margin-bottom: 1.5rem; */
-    /* padding-bottom: 5rem; */
 }
+
 
 
 @media screen and (max-width:500px){
@@ -808,12 +802,10 @@ color: #f5f5f5;
     .svs-banner .svs-banner__text p{
         text-align: justify; 
     }
-    
-    .svs-banner .svs__price p{
+    .svs-banner__wrapper .price p{
         text-align: center;
-        
+        margin: 0 auto; 
     }
-    
     .svs-banner img{
         width: 25rem;
     }
